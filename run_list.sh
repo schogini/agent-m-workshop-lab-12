@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -e
+echo "AGENT-M demos"
+echo "1  uv run python 01_llm/hello_llm.py"
+echo "2  uv run python 02_prompts/prompt_lab.py"
+echo "3  uv run python 03_structured/event_extractor.py"
+echo "4  uv run python 04_tools/simple_tool.py"
+echo "5  uv run python 04_tools/search_agent.py"
+echo "6  uv run python 05_rag/knowledge_agent.py"
+echo "7  uv run python 06_memory/memory_agent.py"
+echo "8  uv run python 07_agentic_rag/agentic_rag.py"
+echo "9  uv run python 08_team/college_fest_team.py"
+echo "10 uv run python 09_multimodal/image_agent.py path/to/photo.jpg"
+echo "11 uv run python 10_vision/menu_reader.py path/to/menu.jpg"
+echo "12 uv run python 11_voice/voice_pipeline.py path/to/question.wav"
+echo "13 uv run streamlit run 12_app/app.py"
+echo "14 uv run python final/campus_ai_buddy.py"

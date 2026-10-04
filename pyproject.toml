@@ -1,0 +1,23 @@
+[project]
+name = "agent-m-workshop"
+version = "0.1.0"
+description = "Two-day hands-on AI workshop demos: Python + uv + Agno"
+requires-python = ">=3.12"
+dependencies = [
+    "agno>=2.0",
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+    "pydantic>=2.0",
+    "rich>=13.0",
+    "ddgs>=9.0",
+    "chromadb>=1.0",
+    "onnxruntime==1.21.0", # Intel + Apple Silicon macOS compatible wheel
+    "fastembed>=0.7.0",
+    "pypdf>=5.0",
+    "sqlalchemy[asyncio]>=2.0",
+    "streamlit>=1.40",
+    "pillow>=10.0",
+]
+
+[tool.uv]
+package = false
